@@ -40,18 +40,23 @@ docker-compose up -d
 Now you should be able to access your Odoo installation. Follow the steps to install the "bicycles" module:
 
 Enter credentials and remember data to later update frontend/.env file:
+
 ![Create Project](/screenshots/2-starting-cut.png)
 
 Edit URL adding `?debug=1` to enter developper mode in Odoo:
+
 ![Create Project](/screenshots/3-starting-cut.png)
 
 Update Apps List to be able to install `bicycles` module:
+
 ![Create Project](/screenshots/4-starting-cut.png)
 
 Install `bicycles` module:
+
 ![Create Project](/screenshots/5-starting-cut.png)
 
 Check that `bicycles` module is installed:
+
 ![Create Project](/screenshots/6-starting-cut.png)
 
 Follow similar steps to install "auth_session_info" module.
