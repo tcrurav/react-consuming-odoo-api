@@ -39,25 +39,25 @@ docker-compose up -d
 
 Now you should be able to access your Odoo installation. Follow the steps to install the "bicycles" module:
 
-![Create Project](https://github.com/tcrurav/react-consuming-odoo-api/blob/master/screenhosts/2-starting.png)
+![Create Project](/screenshots/2-starting.png)
 
-![Create Project](https://github.com/tcrurav/react-consuming-odoo-api/blob/master/screenhosts/3-starting.png)
+![Create Project](/screenshots/3-starting.png)
 
-![Create Project](https://github.com/tcrurav/react-consuming-odoo-api/blob/master/screenhosts/4-starting.png)
+![Create Project](/screenshots/4-starting.png)
 
-![Create Project](https://github.com/tcrurav/react-consuming-odoo-api/blob/master/screenhosts/5-starting.png)
+![Create Project](/screenshots/5-starting.png)
 
-![Create Project](https://github.com/tcrurav/react-consuming-odoo-api/blob/master/screenhosts/6-starting.png)
+![Create Project](/screenshots/6-starting.png)
 
 Follow similar steps to install "auth_session_info" module.
 
 After installing "auth_session_info" modify the 2 following files in module "web". Notice the red marked places:
 
 File `addons/web/controllers/main.py`:
-![Create Project](https://github.com/tcrurav/react-consuming-odoo-api/blob/master/screenhosts/7-web-controllers-main.py.png)
+![Create Project](/screenshots/7-web-controllers-main.py.png)
 
 File `addons/web/models/ir_http.py`:
-![Create Project](https://github.com/tcrurav/react-consuming-odoo-api/blob/master/screenhosts/8-web-models-ir_http.py.png)
+![Create Project](/screenshots/8-web-models-ir_http.py.png)
 
 ### In your Frontend:
 
