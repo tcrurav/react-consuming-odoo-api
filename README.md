@@ -105,6 +105,12 @@ REACT_APP_ODOO_LOGIN=alberto@tiburcio.com
 REACT_APP_ODOO_PASSWORD=albertotiburcio
 ```
 
+Now you can start your frontend React App:
+
+```
+npm start
+```
+
 If you follow the former instructions the 2 different parts of this project will be running on the following urls:
 * Frontend (http://localhost:8081)
 * Backend (http://localhost:8069)
