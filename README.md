@@ -39,25 +39,25 @@ docker-compose up -d
 
 Now you should be able to access your Odoo installation. Follow the steps to install the "bicycles" module:
 
-![Create Project](/screenhosts/2-starting.png)
+![Create Project](https://github.com/tcrurav/react-consuming-odoo-api/blob/master/screenhosts/2-starting.png)
 
-![Create Project](/screenhosts/3-starting.png)
+![Create Project](https://github.com/tcrurav/react-consuming-odoo-api/blob/master/screenhosts/3-starting.png)
 
-![Create Project](/screenhosts/4-starting.png)
+![Create Project](https://github.com/tcrurav/react-consuming-odoo-api/blob/master/screenhosts/4-starting.png)
 
-![Create Project](/screenhosts/5-starting.png)
+![Create Project](https://github.com/tcrurav/react-consuming-odoo-api/blob/master/screenhosts/5-starting.png)
 
-![Create Project](/screenhosts/6-starting.png)
+![Create Project](https://github.com/tcrurav/react-consuming-odoo-api/blob/master/screenhosts/6-starting.png)
 
 Follow similar steps to install "auth_session_info" module.
 
 After installing "auth_session_info" modify the 2 following files in module "web". Notice the red marked places:
 
 File `addons/web/controllers/main.py`:
-![Create Project](/screenhosts/7-web-controllers-main.py.png)
+![Create Project](https://github.com/tcrurav/react-consuming-odoo-api/blob/master/screenhosts/7-web-controllers-main.py.png)
 
 File `addons/web/models/ir_http.py`:
-![Create Project](/screenhosts/8-web-models-ir_http.py.png)
+![Create Project](https://github.com/tcrurav/react-consuming-odoo-api/blob/master/screenhosts/8-web-models-ir_http.py.png)
 
 ### In your Frontend:
 
@@ -126,6 +126,10 @@ With this command you can create the skeletton of a module in odoo:
 ## Special Acknowledgments to Gonzalo
 
 * https://github.com/GonzaloSS/centralU-firstProject. Github Project from my former student Gonzalo. Without Gonzalo's help I would have never be able to successfully end this project example.
+
+## Special Acknowledgments to Alberto Alemán
+
+Thanks to Alberto's tutorials about Docker and Odoo.
 
 ## Acknowledgments
 
