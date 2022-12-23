@@ -49,11 +49,11 @@ Edit URL adding `?debug=1` to enter developper mode in Odoo:
 
 Update Apps List to be able to install `bicycles` module:
 
-![Create Project](/screenshots/4-starting.png)
+![Create Project](/screenshots/4-starting-alt.png)
 
 Install `bicycles` module:
 
-![Create Project](/screenshots/5-starting.png)
+![Create Project](/screenshots/5-starting-alt.png)
 
 Check that `bicycles` module is installed:
 
