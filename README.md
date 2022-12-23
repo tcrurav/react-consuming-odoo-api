@@ -49,7 +49,7 @@ Edit URL adding `?debug=1` to enter developper mode in Odoo:
 
 Update Apps List to be able to install `bicycles` module:
 
-![Create Project](/screenshots/4-starting-alt.png)
+![Create Project](/screenshots/4-starting.png)
 
 Install `bicycles` module:
 
@@ -70,6 +70,12 @@ File `addons/web/controllers/main.py`:
 
 File `addons/web/models/ir_http.py`:
 ![Create Project](/screenshots/8-web-models-ir_http.py-alt.png)
+
+Don't forget to restart the Odoo container:
+
+```
+docker restart odoo-frontend
+```
 
 ### In your Frontend:
 
