@@ -41,7 +41,7 @@ Now you should be able to access your Odoo installation. Follow the steps to ins
 
 Enter credentials and remember data to later update frontend/.env file:
 
-![Create Project](/screenshots/2-starting.png)
+![Create Project](/screenshots/2-starting-alt.png)
 
 Edit URL adding `?debug=1` to enter developper mode in Odoo:
 
@@ -59,15 +59,17 @@ Check that `bicycles` module is installed:
 
 ![Create Project](/screenshots/6-starting.png)
 
-Follow similar steps to install "auth_session_info" module.
+Follow similar steps to install "auth_session_info" module. The result would be:
+
+![Create Project](/screenshots/6-y-medio-starting.png)
 
 After installing "auth_session_info" modify the 2 following files in module "web". Notice the red marked places:
 
 File `addons/web/controllers/main.py`:
-![Create Project](/screenshots/7-web-controllers-main.py.png)
+![Create Project](/screenshots/7-web-controllers-main.py-alt.png)
 
 File `addons/web/models/ir_http.py`:
-![Create Project](/screenshots/8-web-models-ir_http.py.png)
+![Create Project](/screenshots/8-web-models-ir_http.py-alt.png)
 
 ### In your Frontend:
 
@@ -92,9 +94,9 @@ To configure your environment you can create a frontend/.env file:
 ```
 PORT=8081
 REACT_APP_ODOO_BASEURL=http://localhost:8069
-REACT_APP_ODOO_DB=tiburcio
-REACT_APP_ODOO_LOGIN=tiburcio@tiburcio.com
-REACT_APP_ODOO_PASSWORD=tiburcior
+REACT_APP_ODOO_DB=bike-shop
+REACT_APP_ODOO_LOGIN=alberto@tiburcio.com
+REACT_APP_ODOO_PASSWORD=albertotiburcio
 ```
 
 If you follow the former instructions the 2 different parts of this project will be running on the following urls:
@@ -133,13 +135,13 @@ With this command you can create the skeletton of a module in odoo:
 * [axios](https://github.com/axios/axios) - Promise based HTTP client for the browser and node.js.
 * [http-proxy-middleware](https://www.npmjs.com/package/http-proxy-middleware) - Node.js proxying made simple.
 
+## About this project
+
+This project has been done by the teachers of 2-DAM-T to integrate Odoo with the Full Stack Project in our classroom.
+
 ## Special Acknowledgments to Gonzalo
 
-* https://github.com/GonzaloSS/centralU-firstProject. Github Project from my former student Gonzalo. Without Gonzalo's help I would have never be able to successfully end this project example.
-
-## Special Acknowledgments to Alberto Alemán
-
-Thanks to Alberto's tutorials about Docker and Odoo.
+* https://github.com/GonzaloSS/centralU-firstProject. Github Project from our former student Gonzalo. Without Gonzalo's help we would have never be able to successfully end this project example.
 
 ## Acknowledgments
 
