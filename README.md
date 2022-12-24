@@ -151,11 +151,11 @@ With this command you can create the skeletton of a module in odoo:
 
 This project has been done by the teachers of 2-DAM-T to integrate Odoo with the Full Stack Project in our classroom.
 
-## Special Acknowledgments to Gonzalo
+## Special Acknowledgements to Gonzalo
 
 * https://github.com/GonzaloSS/centralU-firstProject. Github Project from our former student Gonzalo. Without Gonzalo's help we would have never be able to successfully end this project example.
 
-## Acknowledgments
+## Acknowledgements
 
 * https://github.com/yezyilomo/odoo-rest-api/blob/master/controllers/controllers.py. There you can find examples of end-points using authentication and error management among others.
 * https://github.com/yezyilomo/odoo-rest-api. Very interesting tutorial.
